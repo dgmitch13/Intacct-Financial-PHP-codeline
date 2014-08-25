@@ -1,8 +1,4 @@
 <?php
-//https:www.metricmill.com/intacct/venki/Don/advanceToOE.php
-//https:www.metricmill.com/intacct/venki/Don/advanceToOE.php?SOcustid=C-0003&SOrefno=13&sessionid=y5MF-Z70aKRvT0_8_yoZw-R3pG4.
-
-
 ini_set('display_errors','1');
 ini_set('display_startup_errors','1');
 error_reporting (E_ALL); 
@@ -58,14 +54,6 @@ $xmlAdv ='<content>
 //create variable
 //var_dump($xmlRsltAdv);
 
-//	$AdvanceCust = $xmlRsltAdv->operation->result->data->arpayment->customerid;
-//	$AdvanceAmt = $xmlRsltAdv->operation->result->data->arpayment->lineitems->lineitem->amount;
-//	$AdvanceMemo  = $xmlRsltAdv->operation->result->data->arpayment->lineitems->lineitem->memo;
-//	$Advancekey  = $xmlRsltAdv->operation->result->data->arpayment->key;
-//	$Advancebatchkey = $xmlRsltAdv->operation->result->data->arpayment->batchkey;
-	  
-//echo $AdvanceCust."  ".$AdvanceMemo."  ".$AdvanceAmt." ".$Advancekey." ".$Advancebatchkey;
-	
 //Get the current invoice that reference ar advance 2.1
 
 $xmlInv ='<content>
