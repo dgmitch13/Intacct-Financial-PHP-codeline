@@ -1,7 +1,4 @@
 <?php
-//https://dev.intacctservices.com/se/venki/in/Don/CrossOver2.php?sessionid=teMkxQeOQPE8jRyFOWTNwo5f8T0.&SICustID=C-0007
-//https://dev.intacctservices.com/se/venki/in/Don/CrossOver2.php?sessionid={!USERPROFILE.SESSIONID!}&SICustID={!SODOCUMENT.CUSTVENDID!}
-
 ini_set('display_errors','1');
 ini_set('display_startup_errors','1');
 error_reporting (E_ALL); 
@@ -14,6 +11,7 @@ require_once "PostXml2.php";
 //Actual live data freed from Intacct Application
 $sessionid =$_GET["sessionid"];
 $SICustID = $_GET["SICustID"];
+$SIDocID = $_GET["SIDocID"];
 
 //instantiate post object
 $myPostXml = new ts_PostXml("https://www.intacct.com/ia/xml/xmlgw.phtml","dgmitchell","Welcome1!","","","","","",$sessionid);
@@ -37,13 +35,7 @@ try {
 	echo "<br/><p><strong>Error Processing Results: </strong> " . $e->getMessage() . "</p>";
 }
      $xmlRsltProj = new SimpleXMLElement($responseProj);
-/*
-	 	foreach($xmlRsltProj->operation->result->data->projectresources as $proRec){
-		 	$mgmtfee  = $proRec->ITEMID;
-		 	$beneload = (($proRec->POAPRATE)/100);
-		    $php      = $proRec->BILLINGRATE;
-	    }
-*/		
+		
         $Twenty = '';
 		$Fifteen = '';
 		$Flatfee = '';
