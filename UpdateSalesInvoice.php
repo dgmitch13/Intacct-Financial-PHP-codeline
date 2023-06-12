@@ -1,6 +1,6 @@
 <?php
-//https://dev.intacctservices.com/se/venki/in/Don/CrossOver2.php?sessionid=teMkxQeOQPE8jRyFOWTNwo5f8T0.&SICustID=C-0007
-//https://dev.intacctservices.com/se/venki/in/Don/CrossOver2.php?sessionid={!USERPROFILE.SESSIONID!}&SICustID={!SODOCUMENT.CUSTVENDID!}
+//https://dev.intacctservices.com/se/xxxxx/in/Don/CrossOver2.php?sessionid=teMkxQeOQPE8jRyFOWTNwo5f8T0.&SICustID=C-0007
+//https://dev.intacctservices.com/se/xxxx/in/Don/CrossOver2.php?sessionid={!USERPROFILE.SESSIONID!}&SICustID={!SODOCUMENT.CUSTVENDID!}
 
 ini_set('display_errors','1');
 ini_set('display_startup_errors','1');

@@ -1,7 +1,7 @@
 <?php
-//https://www.metricmill.com/intacct/venki/Don/SI_to_StatAcct_3.php
-//https://www.metricmill.com/intacct/venki/Don/SI_to_StatAcct_3.php?SOcustid={!SODOCUMENT.CUSTVENDID!}&SOrefno={!SODOCUMENT.PONUMBER!}&sessionid={!USERPROFILE.SESSIONID!}
-//https://www.metricmill.com/intacct/venki/Don/SI_to_StatAcct_3.php?SOcustid=C-0003&SOrefno=24&sessionid=Wu7kRcfCnftsFDWegYuDKcKC_20.
+//https://www.windyhighway.com/intacct/xxxx/Don/SI_to_StatAcct_3.php
+//https://www.windyhighway.com/intacct/xxxx/Don/SI_to_StatAcct_3.php?SOcustid={!SODOCUMENT.CUSTVENDID!}&SOrefno={!SODOCUMENT.PONUMBER!}&sessionid={!USERPROFILE.SESSIONID!}
+//https://www.windyhighway.com/intacct/xxxx/Don/SI_to_StatAcct_3.php?SOcustid=C-0003&SOrefno=24&sessionid=Wu7kRcfCnftsFDWegYuDKcKC_20.
 
 ini_set('display_errors','1');
 ini_set('display_startup_errors','1');
