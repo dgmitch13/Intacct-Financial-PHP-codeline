@@ -1,6 +1,5 @@
-PHP-Codeline
+Intacct Financial PHP codeline
 ============
-All code is triggered using the smartevent action that lives in the Intacct platform application. Additional discription of the code can be found with the code itself.
+Sage Intacct Developer
 
-All code is limited to the Intacct platform application.
-
+https://developer.intacct.com/api/
