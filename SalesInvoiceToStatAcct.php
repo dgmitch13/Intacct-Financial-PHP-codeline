@@ -1,15 +1,6 @@
-<?php
-//https://www.windyhighway.com/intacct/xxxxx/Don/SI_to_StatAcct_3.php
-//https://www.windyhighway.com/intacct/xxxxx/Don/SI_to_StatAcct_3.php?SOcustid={!SODOCUMENT.CUSTVENDID!}&SOrefno={!SODOCUMENT.PONUMBER!}&sessionid={!USERPROFILE.SESSIONID!}
-//https://www.windyhighway.com/intacct/xxxxx/Don/SI_to_StatAcct_3.php?SOcustid=C-0003&SOrefno=24&sessionid=Wu7kRcfCnftsFDWegYuDKcKC_20.
-
 ini_set('display_errors','1');
 ini_set('display_startup_errors','1');
 error_reporting (E_ALL); 
-
-//include
-//include_once('api/api_session.php');
-//include_once('api/api_util.php');
 
 //require
 require_once "PostXml.php";
@@ -128,11 +119,7 @@ $xmlInv ='<content>
 				  }
 				 
 				  if($b-1 == $i){
-                   //   echo " what is b ".$b;
-				    //  echo " what is i ".$i;	   
-                      $totDay =$totDay + strval($endNum); 
-					//  echo " total to minus ".strval($endNum);
-					 // echo " the ending total ".strval($endDateDay);
+                                       $totDay =$totDay + strval($endNum); 
 					  $totDay2 =strval($endNum) - (strval($endDateDay)+1);
 					  echo " Total number of days ".$totDay3 =$totDay - $totDay2;
 					  
@@ -200,8 +187,5 @@ $xmlInv ='<content>
 			echo "<br/><p><strong>Error Processing Results: </strong> " . $e->getMessage() . "</p>";
 		}		
 			
-//<!ELEMENT glentry (trtype, amount, glaccountno,locationid?, departmentid?, customerid?, vendorid?, itemid?, classid?, customfields?, recon_date?, (currency, ((exchratedate?, exchratetype) | exchrate))?)>
 
-
- 
 ?>
