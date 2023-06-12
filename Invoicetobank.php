@@ -1,6 +1,6 @@
 <?php
-//https://dev.intacctservices.com/se/venki/in/Don/invoice_to_bank.php?ARcustid=C-4848&sessionid=teMkxQeOQPE8jRyFOWTNwo5f8T0.&ARDOCid=INV-2230
-//https://dev.intacctservices.com/se/venki/in/Don/invoice_to_bank.php?ARcustid={!SODOCUMENT.CUSTVENDID!}&sessionid={!USERPROFILE.SESSIONID!}&ARDOCid={!SODOCUMENT.DOCID!}
+//https://dev.intacctservices.com/se/xxxxx/in/Don/invoice_to_bank.php?ARcustid=C-4848&sessionid=teMkxQeOQPE8jRyFOWTNwo5f8T0.&ARDOCid=INV-2230
+//https://dev.intacctservices.com/se/xxxxx/in/Don/invoice_to_bank.php?ARcustid={!SODOCUMENT.CUSTVENDID!}&sessionid={!USERPROFILE.SESSIONID!}&ARDOCid={!SODOCUMENT.DOCID!}
    
 ini_set('display_errors','1');
 ini_set('display_startup_errors','1');
