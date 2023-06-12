@@ -1,2 +1,2 @@
-Intacct Financia PHP codeline
+Intacct Financial PHP codeline
 ============
